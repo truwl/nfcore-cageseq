@@ -1,0 +1,19 @@
+name: nf.core cageseq
+identifier: WF_c9bac0.6f
+description: CAGE-sequencing analysis pipeline with trimming, alignment and counting
+  of CAGE tags.
+softwareVersion:
+  versionName: 1.0.2
+metadataStatus: Released
+workflowStatus: Released
+workflowFile: cageseq.wdl
+repoName: nfcore-cageseq
+gitTag: master
+inputsTemplate: inputs.json
+executable: true
+current: true
+codeRepository:
+  URL: https://github.com/truwl/nfcore-cageseq/
+WebSite:
+- URL: https://github.com/nf-core/cageseq
+  name: nf-core/cageseq
